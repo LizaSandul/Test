@@ -1,6 +1,7 @@
 package edu.bsuir.test;
 
 import edu.bsuir.pojo.User;
+import edu.bsuir.test.user.BasicTest;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -27,7 +28,6 @@ public class DeleteUser extends BasicTest {
 
     @Test
     public void shouldDeleteUser() {
-
         String userLocation = createResource("user/", postUser);
         int statusCode = deleteResource(userLocation);
         assertThat(statusCode).isEqualTo(204);

@@ -1,13 +1,14 @@
 package edu.bsuir.test;
 
 import edu.bsuir.pojo.User;
+import edu.bsuir.test.user.BasicTest;
 import org.junit.After;
 import org.junit.Test;
 
 import static edu.bsuir.test.user.Helper.createUser;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class UpdateUser extends BasicTest{
+public class UpdateUser extends BasicTest {
 
     private User postUser;
 

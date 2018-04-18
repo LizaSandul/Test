@@ -1,4 +1,4 @@
-package edu.bsuir.test;
+package edu.bsuir.test.user;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
